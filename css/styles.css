@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+
+:root {
+    /* Palette de couleur */
+    --primary-color-light: rgba(242, 247, 247);
+    --primary-color-black: rgba(32, 32, 23);
+    --primary-color-dark: rgba(0, 41, 37);
+    --primary-color-contrast: rgba(213, 144, 32);
+    --primary-color-soft: rgba(194, 175, 144);
+    --bs-body-font-family: "Lato", system-ui, Arial, sans-serif;
+
+    --normal-font-family: 'Roboto', sans-serif;
+}
+
+.custom-bg-dark {
+    background-color: var(--primary-color-dark);
+}
+
+.custom-bg-light {
+    background-color: var(--primary-color-light);
+}
+
+.custom-text-dark {
+    color: var(--primary-color-dark);
+}
+
+.custom-text-light {
+    color: var(--primary-color-light);
+    font-family: var(--normal-font-family);
+}
+
+.custom-text-contrast {
+    color: var(--primary-color-contrast);
+}
+
+.carousel-item img{
+    height: 100vh;
+    object-fit: cover;
+}
+
+h2 {
+    font: var(--normal-font-family);
+    color: var(--primary-color-contrast);
+    font-size: 3rem;
+}
