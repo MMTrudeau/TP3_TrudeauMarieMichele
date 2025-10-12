@@ -1,0 +1,11 @@
+.carousel-item img {
+    height: 100vh;
+    object-fit: cover;
+  }
+
+#carouselCorporatif .carousel-item img,
+#carouselLifestyle .carousel-item img {
+  height: 50vh;
+  width: 100%;
+  object-fit: cover;
+}
