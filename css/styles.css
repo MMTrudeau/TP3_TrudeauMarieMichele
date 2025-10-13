@@ -51,7 +51,7 @@ h2 {
 
 #carouselCorporatif .carousel-item img,
 #carouselLifestyle .carousel-item img {
-  height: 50vh;
-  width: 100%;
-  object-fit: cover;
+    height: 50vh;
+    width: 100%;
+    object-fit: cover;
 }
