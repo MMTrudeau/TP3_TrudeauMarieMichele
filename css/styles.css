@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 
-
 :root {
     /* Palette de couleur */
     --primary-color-light: rgba(242, 247, 247);
@@ -34,7 +33,7 @@
     color: var(--primary-color-contrast);
 }
 
-.carousel-item img{
+.carousel-item img {
     height: 100vh;
     object-fit: cover;
 }
@@ -43,4 +42,16 @@ h2 {
     font: var(--normal-font-family);
     color: var(--primary-color-contrast);
     font-size: 3rem;
+}
+
+.carousel-item img {
+    height: 100vh;
+    object-fit: cover;
+}
+
+#carouselCorporatif .carousel-item img,
+#carouselLifestyle .carousel-item img {
+  height: 50vh;
+  width: 100%;
+  object-fit: cover;
 }
