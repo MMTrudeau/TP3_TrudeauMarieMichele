@@ -1,0 +1,37 @@
+:root {
+    /* Palette de couleur */
+    --primary-color-light: rgba(242, 247, 247);
+    --primary-color-black: rgba(32, 32, 23);
+    --primary-color-dark: rgba(0, 41, 37);
+    --primary-color-contrast: rgba(213, 144, 32);
+    --primary-color-soft: rgba(194, 175, 144);
+    --bs-body-font-family: "Lato", system-ui, Arial, sans-serif;
+
+
+    --bs-primary-bg-subtle: rgba(213, 144, 32);
+    --bs-accordion-border-color: rgba(0, 41, 37);
+    --bs-blue: rgba(194, 175, 144);
+}
+
+.accordion-button:focus {
+    box-shadow: none !important;
+    outline: none !important;
+  }
+
+  .btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: rgba(0, 41, 37);
+    --bs-btn-border-color: rgba(0, 41, 37);
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: rgba(213, 144, 32, 0.9);
+    --bs-btn-hover-border-color: rgba(213, 144, 32);
+    --bs-btn-focus-shadow-rgb: 0, 41, 37;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: rgba(0, 41, 37, 0.9);
+    --bs-btn-active-border-color: rgba(0, 41, 37);
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: rgba(0, 41, 37, 0.6);
+    --bs-btn-disabled-border-color: rgba(0, 41, 37, 0.6);
+  }
+    
