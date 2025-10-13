@@ -34,4 +34,22 @@
     --bs-btn-disabled-bg: rgba(0, 41, 37, 0.6);
     --bs-btn-disabled-border-color: rgba(0, 41, 37, 0.6);
   }
-    
+
+.offcanvas {
+  --bs-offcanvas-bg: rgba(0, 41, 37);
+  color: var(--primary-color-light);
+}
+
+.btn-close {
+  color: var(--primary-color-contrast);
+}
+
+.navbar-nav {
+  --bs-nav-link-color: rgba(242, 247, 247);
+  --bs-nav-link-hover-color: rgba(213, 144, 32);
+  --bs-nav-link-disabled-color: rgba(194, 175, 144);
+}
+
+.nav-link.active, .navbar-nav .nav-link.show  {
+  color: var(--primary-color-soft)
+}
